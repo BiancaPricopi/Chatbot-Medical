@@ -32,52 +32,414 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "sick",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "I am sick",
+        "I'm ill.",
+        "I'm not feeling well.",
+        "I don't feel good.",
+        "My health is poor.",
+        "My health is not good."
+      ],
+      "responses": ["Please tell me your symptoms."]
+    },
+    {
+      "tag": "covid-19-symptoms",
+      "patterns": [
+        "a high temperature or shivering (chills)",
+        "continuous cough",
+        "I have no smell",
+        "a loss sense of smell or taste",
+        "change sense of smell or taste",
+        "shortness of breath",
+        "feeling tired or exhausted",
+        "an aching body",
+        "a headache",
+        "a sore throat",
+        "a blocked or runny nose",
+        "loss of appetite",
+        "diarrhoea",
+        "a high temperature or shivering (chills) – a high temperature means you feel hot to touch on your chest or back (you do not need to measure your temperature)\na new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours\na loss or change to your sense of smell or taste\nshortness of breath\nfeeling tired or exhausted\nan aching body\na headache\na sore throat\na blocked or runny nose\nloss of appetite\ndiarrhoea\nfeeling sick or being sick"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You have covid-19 symptoms. Please try to stay at home and avoid contact with other people.\nYou can go back to your normal activities when you feel better or do not have a high temperature."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "covid-19-wtd",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What to do if you have covid-19 symptoms?",
+        "What to do if I get signs of COVID-19?",
+        "How to respond to signs of COVID-19",
+        "f I have signs of COVID-19, what should I do?",
+        "What should I do if I have COVID-19 symptoms?",
+        "What should I do if COVID-19 symptoms are present?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Try to stay at home and avoid contact with other people if you have symptoms of COVID-19 and either:\n\nyou have a high temperature\nyou do not feel well enough to go to work or do your normal activities\nTake extra care to avoid close contact with anyone who is at higher risk of getting seriously ill from COVID-19.\n\nYou can go back to your normal activities when you feel better or do not have a high temperature."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "covid-19-test",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Who needs to do a COVID-19 test?",
+        "Who must take the COVID-19 test?",
+        "Who should get a COVID-19 test?",
+        "Who is required to take the COVID-19 test?",
+        "Covid-19 test",
+        "Test myself for covid-19"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Free testing for COVID-19 from the NHS has ended for most people in England.\n\nIf you have symptoms of COVID-19, you are no longer required to do a rapid lateral flow or PCR test.\n\nIf you still want to get tested and you're not eligible for a free NHS test, you must pay for a COVID-19 test yourself.\n\nYou can buy a COVID-19 test from some pharmacies and retailers, in person or online."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "covid-19-q1",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Is COVID-19 worse than flu?",
+        "Is COVID-19 worse than the flu?",
+        "When compared to the flu, how much worse is COVID-19?",
+        "Is COVID-19 more harmful than the flu?",
+        "Is COVID-19 more dangerous than the flu?",
+        "Information about covid-19"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "COVID-19 has a higher rate of severe disease and mortality in nearly every age group, compared with influenza (flu).",
+        "John Hopkins Bloomberg School of Public Health reported that \"COVID-19 has killed more people in the US than flu has in the last five years.\"",
+        "In the UK, data revealed that between January-August, COVID-19 killed 3.4 times as many people in 2020 than flu and pneumonia combined.",
+        "The US Centers for Disease Control and Prevention (CDC) estimate that in the United States flu has resulted in \"between 12,000-61,000 deaths annually since 2010.” COVID-19 has resulted in more than 304,000 deaths in the US. "
+      ]
+    },
+    {
+      "tag": "covid-19-q2",
+      "patterns": [
+        "How does COVID-19 compare to other public health threats?",
+        "How does COVID-19 compare to other potential risks to public health?",
+        "In what ways is COVID-19 different from other risks to public health?",
+        "Comparatively speaking, how dangerous is COVID-19 to the public's health?"
+      ],
+      "responses": [
+        "This depends very much on where people live and how old they are, with some parts of the world hit harder than others, and some age groups being affected more, such as older people. However, even in countries where the COVID-19 death rate seems relatively low, the indirect impact on reduced health services, vaccine supply shortages, and reluctance to seek medical treatment for fear of infection is having a drastic impact and putting tens of millions of people at risk – including children and newborns.",
+        "Even though COVID-19 appears to directly affect children less than adults, it can have indirect impacts. Modelling studies have predicted that COVID-19 could amplify neonatal deaths. For instance, research published by the Guttmacher Institute in April estimated that even a 10% decrease in pregnancy-related and neonatal health care could result in an extra 168,000 neonatal and 28,000 maternal deaths globally, as well as 2.5 million newborns experiencing major medical complications.",
+        "When COVID cases peaked in Europe, it killed almost twice as many Europeans as cancer which is the biggest killer under normal circumstances. "
+      ]
+    },
+    {
+      "tag": "covid-19-q3",
+      "patterns": [
+        "How effective are masks and do they also need to cover my nose?",
+        "Do masks have to cover my nose, and how effective are they?",
+        "Are masks helpful, and do they also need to protect my nose?",
+        "Are masks helpful?",
+        "How well do masks work, and do they have to cover my nose as well?"
+      ],
+      "responses": [
+        "Mask wearing is a very simple and effective way to reduce transmission and save lives. The degree of protection depends on the type of mask, how well they worn and on other factors such as the behaviour of people wearing them and the behaviour of air droplets in different settings.",
+        "Masks alone are not enough to fully protect someone from the virus, but they still have an essential role to play in protecting high risk individuals, such as frontline health care workers. For most people the greatest benefit lies not in protecting the wearer, but those around them. When combined with other safety measures like physical distancing and practicing good hygiene, they are a very effective tool with little to no disruption to normal life.",
+        "COVID-19 is predominantly spread via respiratory droplets that are released when someone that has been infected coughs, sneezes or talks. Breathing those droplets in through your nose can lead to infection. Masks act as a barrier preventing people from spreading these potentially infectious droplets.",
+        "Using a mask to just cover the mouth and not the nose only addresses part of risk, and so could defeat the whole purpose of wearing one in the first place. Similarly, eye protection can also be important, particularly when physical distancing isn\"t possible."
+      ]
+    },
+    {
+      "tag": "covid-19-q4",
+      "patterns": [
+        "Why do governments benefit from helping to ensure other countries access vaccines?",
+        "Why does ensuring that other nations have access to vaccinations assist governments?",
+        "Why do governments gain from ensuring that other nations have access to vaccines?",
+        "Why does ensuring access to vaccinations for other nations benefit governments?"
+      ],
+      "responses": [
+        "Ensuring COVID-19 vaccines reach people in the world\"s poorest countries isn\"t just about being charitable or acting on a moral imperative; it\"s also in the best interest of every country to do so. The pandemic started in Wuhan, China and spread to 180 countries within three months. That means if the virus is circulating in one country, the rest of the world remains at risk.",
+        "Countries hoarding vaccines is known as vaccine nationalism, which is what happened with the 2009 H1N1 swine flu pandemic. If this happens with COVID-19 vaccines it could prolong the pandemic, leading to more deaths and slower recovery.",
+        "Research analysing the benefit-cost ratio of investing in the procurement and delivery of safe and effective COVID-19 vaccines to the world\"s poorest countries found that for every US$ 1 spent, wealthier countries would get back about US$ 4.80 in terms of the avoided economic costs.",
+        "The quickest way to end the acute phase of this pandemic and limit the economic damage is for all countries to have equitable access to and effective delivery of COVID-19 vaccines. "
+      ]
+    },
+    {
+      "tag": "covid-19-q5",
+      "patterns": [
+        "Would it be possible to achieve herd immunity without vaccines?",
+        "Could herd immunity be attained without vaccinations?",
+        "Without vaccinations, is it feasible to acquire herd immunity?",
+        "Achieving herd immunity without the use of vaccinations is doable, right?",
+        "Is it feasible to create herd immunity without using vaccines?"
+      ],
+      "responses": [
+        "Historically, the most successful way to achieve herd immunity is actually through mass vaccination. This is a much safer route as the alternative is for roughly 60% of the population to be infected with COVID-19 which essentially means leaving the virus unchecked.",
+        "Attempting to achieve natural herd immunity through infection will lead to a rise in cases, and a surge in the number of deaths. Moreover, natural immunity to coronaviruses usually only lasts for up to a couple of years. As Kristian Andersen, an immunologist at the Scripps Research Institute in California warned, this approach could \"lead to unacceptable and unnecessary untold human death and suffering.\""
+      ]
+    },
+    {
+      "tag": "covid-19-q6",
+      "patterns": [
+        "How can we trust vaccines that have been developed so fast?",
+        "How can we believe in vaccinations that have been created so quickly?",
+        "With vaccine development moving so quickly, how can we believe in them?"
+      ],
+      "responses": [
+        "COVID-19 vaccines have been developed and produced in record time, but it\"s also involved unprecedented levels of funding and global cooperation to tackle a global threat. So far, all approved COVID-19 vaccines have undergone large clinical trials with rigorous safety protocols, and without major safety concerns raised.",
+        "The COVAX Facility – co-led by Gavi, the Coalition for Epidemic Preparedness Innovations (CEPI) and the World Health Organization (WHO) – has incentivised vaccine manufacturers to scale-up and manufacture high volumes before the vaccines are licensed. This is known as manufacturing at risk but it means that vaccines can be rolled out as soon as they are approved, avoiding years of delay. "
+      ]
+    },
+    {
+      "tag": "covid-19-q7",
+      "patterns": [
+        "What are the risks of re-infection with covid-19?",
+        "What are the chances of becoming sick again?",
+        "What are the chances of contracting COVID-19 again?",
+        "What are the chances that covid-19 may re-infect?",
+        "Which dangers do covid-19 re-infections pose?"
+      ],
+      "responses": [
+        "As with other coronaviruses, such as those that cause the common cold, SARS-CoV-2 can reinfect people. There have been multiple reports of reinfection, including a 25-year-old man in the US who tested positive twice. The Lancet reported that \"the second infection was symptomatically more severe than the first.\"",
+        "Even if you have had a test that detects antibodies, reinfection is still possible, although less likely.",
+        "Antibodies are only one part of the vast, complex immune response that is set in motion when a person becomes infected with a virus like SARS-CoV-2 so having antibodies isn\"t enough to guarantee long-term protection.",
+        "In many people, infection with SARS-CoV-2 can lead to so-called \"long COVID\" – where people suffer long-term complications resulting from the virus. This can be caused directly by the virus replicating over long periods, or indirectly with symptoms, like fatigue, waxing and waning even after the virus is present in their body."
+      ]
+    },
+    {
+      "tag": "covid-19-q8",
+      "patterns": [
+        "Is regularly washing my hands enough to protect me?",
+        "Is frequent hand washing enough to keep me safe?",
+        "Can I be protected if I wash my hands frequently?"
+      ],
+      "responses": [
+        "Even though regularly washing your hands is very important, as with masks it is not enough on its own. Public health guidelines all work in tandem to prevent the spread of germs.",
+        "Keep washing your hands for at least 20 seconds each time, keep carrying antibacterial gel when you\"re travelling and remember to wear a mask and practice physical distancing."
+      ]
+    },
+    {
+      "tag": "covid-19-q9",
+      "patterns": [
+        "Do I still need to worry about infection even though I'm fit and healthy?",
+        "Even if I'm in good health and fit, should I still be concerned about infection?",
+        "Though I'm in good health and shape, do I still need to be concerned about infection?"
+      ],
+      "responses": [
+        "Search for keywords like \"fit,\" \"healthy\" and \"COVID\" and you will see countless headlines referring to people who have died or suffered from severe symptoms despite being otherwise healthy. So even if you are less at risk due to your age or BMI, that doesn\"t guarantee that you won\"t suffer from long-term symptoms like breathlessness, fatigue, a loss of smell and/or taste.",
+        "A research paper on COVID-19-related mortality among US adults aged 25-44 revealed that in July 2020 almost 12,000 more deaths were recorded than normally expected, based on historical norms. This led to July being described as the deadliest month for this age group in 20 years. Although not every death was from COVID-19, it was the driving force for this tragic figure.",
+        "Even if you are fit and healthy, you could spread the infection to vulnerable people, such as older people or those with compromised immune systems or diabetes. Taking steps to safeguard against COVID-19 will not only protect you, but also others around you."
+      ]
+    },
+    {
+      "tag": "covid-19-q10",
+      "patterns": [
+        "Should I be concerned that the sample sizes in vaccine clinical trials weren\"t bigger?",
+        "Should I be worried that the clinical studies for vaccines didn't use larger sample sizes?",
+        "Should I be worried that the clinical trial sample sizes for vaccines weren't greater?"
+      ],
+      "responses": [
+        "A small sample size in clinical trials doesn\"t necessarily reduce the importance of the findings. The more efficacious the intervention, the smaller the number of clinical outcomes needed to demonstrate its efficacy because the benefit of the intervention is so clear. You would expect larger sample sizes when there are more grey areas about how effective an intervention is.",
+        "COVID-19 is spreading so rapidly that needlessly delaying vaccine production in favour or having a larger clinical trial would put more people at risk. With such a fast-moving virus and so many people at risk, time is of the essence."
+      ]
+    },
+    {
+      "tag": "covid-19-q11",
+      "patterns": [
+        "How long do COVID symptoms last?",
+        "How long do the signs of COVID last?"
+      ],
+      "responses": [
+        "Those with a mild case of COVID-19 usually recover in one to two weeks. For severe cases, recovery can take six weeks or more, and for some, there may be lasting symptoms with or without damage to the heart, kidneys, lungs and brain."
+      ]
+    },
+    {
+      "tag": "covid-19-q12",
+      "patterns": [
+        "Can I get COVID-19 more than once?",
+        "Am I able to obtain COVID-19 more than once?"
+      ],
+      "responses": [
+        "Yes. Re-infection with the coronavirus, especially with one of the coronavirus variants, is possible if you previously had COVID-19.\n\nThe best protection is to get fully vaccinated and receive a booster when eligible, wear a face mask in public, practice physical distancing and wash your hands frequently."
+      ]
+    },
+    {
+      "tag": "covid-19-q13",
+      "patterns": [
+        "Will I get COVID-19 pneumonia?",
+        "Will I develop pneumonia COVID-19?"
+      ],
+      "responses": [
+        "Some patients with COVID-19 develop pneumonia. Viral pneumonia, including that caused by COVID-19, cannot be treated with antibiotics. Some severe cases of COVID-19 may require ventilator support to ensure the body is getting enough oxygen. Other medications, including antivirals, may also be administered.\n\nPeople over age 65 and those with certain health conditions are at a higher risk of developing pneumonia and may experience more severe cases of COVID-19. Studies show that in patients with COVID-19, pneumonia may progress into acute respiratory distress syndrome (ARDS), which can be fatal in some patients."
+      ]
+    },
+    {
+      "tag": "covid-19-q14",
+      "patterns": [
+        "What is the treatment for COVID-19?",
+        "What treatment should i take for covid"
+      ],
+      "responses": [
+        "Treatment of COVID-19 involves addressing symptoms. If you are at risk for severe coronavirus disease, your doctor may recommend one or more COVID-19 treatments, but for most people with mild COVID-19, rest and drinking plenty of fluids are the best approach. Your doctor may also suggest you take over-the-counter medication for fever.\n\nMore severe cases require hospital care, including breathing support, mechanical ventilation, or other medical treatments."
+      ]
+    },
+    {
+      "tag": "covid-19-q15",
+      "patterns": [
+        "After COVID-19, when is it safe for me to be around other people?",
+        "When will it be safe for me to interact with other people after COVID-19?",
+        "When can I safely interact with others after COVID-19?"
+      ],
+      "responses": [
+        "If you are infected with COVID-19 or have been exposed to someone who is infected, it is very important to separate yourself from others so that you do not spread COVID-19 further. The CDC provides recommendations on isolation and quarantine."
+      ]
+    },
+    {
+      "tag": "covid-19-q16",
+      "patterns": [
+        "If I have COVID-19, how can I keep my family safer?",
+        "What can I do to keep my family safer if I have COVID-19?",
+        "How can I make sure my family is secure if I have COVID-19?"
+      ],
+      "responses": [
+        "There are several ways to help protect your family:\n\nMake sure everyone in your family is fully vaccinated and has a booster when eligible.\nAnyone testing positive for the coronavirus should stay in one room away from other people in your home as much as possible. Use a separate bathroom if one is available.\nIf you must be in the same room as other people, you and they should wear face masks. If you cannot wear a face mask (for some, face masks may cause trouble breathing), people who live with you should not be in the same room as you. If they do enter your room, they should wear a face mask.\nEveryone should practice good hygiene, including washing your hands frequently for at least 20 seconds and coughing or sneezing into your elbow or a tissue (and then throwing the tissue away)."
+      ]
+    },
+    {
+      "tag": "covid-19-q17",
+      "patterns": [
+        "How can I care for my pets if I have COVID-19?",
+        "When I have COVID-19, how can I take care of my pets?",
+        "With COVID-19, how can I take care of my animals?"
+      ],
+      "responses": [
+        "According to the CDC, the virus may spread from people to animals during close contact, so it’s best to follow the same safety measures with your pet as you would with people.\n\nAvoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food.\nWhen possible, have another member of your household care for your animals while you are ill.\nIf you must care for them, wear a face mask and wash your hands before and after."
+      ]
+    },
+    {
+      "tag": "covid-19-q18",
+      "patterns": [
+        "How long does SARS-CoV-2 stay in the body?",
+        "SARS-CoV-2 remains in the body for how long?"
+      ],
+      "responses": [
+        "There is no definitive answer. The reality of 6.2 million deaths with covid-19 means that many people die from the effects of the virus within their body before the virus itself does, so it’s difficult to know how long they would have continued to shed the virus if they’d survived.\n\nAlso, different people clear viruses quicker than others, depending on underlying health conditions. For example, says Paul Hunter, professor in medicine at the University of East Anglia, \"Even before covid, we’ve known that people who have certain immune deficiencies can struggle to clear viruses.”"
+      ]
+    },
+    {
+      "tag": "covid-19-q19",
+      "patterns": [
+        "What is COVID-19?",
+        "Describe COVID-19."
+      ],
+      "responses": [
+        "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.\n\nMost people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. \nHowever, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. \nAnyone can get sick with COVID-19 and become seriously ill or die at any age. \n\nThe best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. \nProtect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. \nGet vaccinated when it’s your turn and follow local guidance.\n\nThe virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. \nThese particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.",
+        "COVID-19 is the disease caused by SARS-CoV-2, the coronavirus that emerged in December 2019.\nCOVID-19 can be severe, and has caused millions of deaths around the world as well as lasting health problems in some who have survived the illness.\nThe coronavirus can be spread from person to person. It is diagnosed with a test.\nThe best way to protect yourself is to get vaccinated and boosted when you are eligible, follow testing guidelines, wear a mask, wash your hands and practice physical distancing."
+      ]
+    },
+    {
+      "tag": "covid-19-q20",
+      "patterns": [
+        "How does the coronavirus spread?",
+        "The coronavirus spreads in what way?",
+        "The coronavirus's mode of transmission",
+        "In what way does the coronavirus spread?"
+      ],
+      "responses": [
+        "As of now, researchers know that the coronavirus is spread through droplets and virus particles released into the air when an infected person breathes, talks, laughs, sings, coughs or sneezes. Larger droplets may fall to the ground in a few seconds, but tiny infectious particles can linger in the air and accumulate in indoor places, especially where many people are gathered and there is poor ventilation.\n This is why mask-wearing, hand hygiene and physical distancing are essential to preventing COVID-19."
+      ]
+    },
+    {
+      "tag": "covid-19-q21",
+      "patterns": [
+        "Treatments for covid-19?",
+        "How to treat covid-19?",
+        "Covid-19 treatment guidelines",
+        "Medications for COVID-19"
+      ],
+      "responses": [
+        "If you test positive and are more likely to get very sick from COVID-19, treatments are available external icon that can reduce your chances of being hospitalized or dying from the disease. \nMedications to treat COVID-19 must be prescribed by a healthcare provider and started as soon as possible after diagnosis to be effective. \nContact a healthcare provider right away to determine if you are eligible for treatment, even if your symptoms are mild right now.\n\nDon’t delay: Treatment must be started within days of when you first develop symptoms to be effective.\n\nPeople who are more likely to get very sick include older adults (ages 50 years or more, with risk increasing with age), people who are unvaccinated, and people with certain medical conditions, such as chronic lung disease, heart disease, or a weakened immune system. \nBeing vaccinated makes you much less likely to get very sick. Still, some vaccinated people, especially those ages 65 years or older or who have other risk factors for severe disease, may benefit from treatment if they get COVID-19. \nA healthcare provider will help decide which treatment, if any, is right for you. \nCheck with your healthcare provider or pharmacist if you are taking other medications to make sure the COVID-19 treatments can be safely taken at the same time."
+      ]
+    },
+    {
+      "tag": "covid-19-q22",
+      "patterns": [
+        "How long can loss of smell from COVID-19 last?\n",
+        "How long will COVID-19's lack of smell last?",
+        "How long does COVID-19 smell loss last?"
+      ],
+      "responses": [
+        "For many patients, COVID-19 symptoms like loss of smell and taste improve within 4 weeks of the virus clearing the body. A recent study shows that in 75-80% of cases, senses are restored after 2 months, with 95% of patients regaining senses of taste and smell after 6 months."
+      ]
+    },
+    {
+      "tag": "covid-19-q23",
+      "patterns": [
+        "Does no smell mean I still have Covid?",
+        "Do I still have Covid if I can't smell it?",
+        "Does the absence of scent indicate that I still have Covid?"
+      ],
+      "responses": [
+        "With COVID-19, smell loss one of the first signs of infection. “Smell loss is actually an early sign of COVID-19 and usually occurs for those who have a mild form of the virus,” says Tajudeen. \n“Patients with smell loss are normally at home recovering and not admitted into the hospital or on a ventilator.”"
+      ]
+    },
+    {
+      "tag": "covid-19-q24",
+      "patterns": [
+        "Does sense of smell return after Covid?",
+        "After Covid, does the ability to smell return?"
+      ],
+      "responses": [
+        "When will I get my sense of smell and taste back? Patients usually improve slowly with time. \nAbout 65 percent of people with COVID-19-induced parosmia or hyposmia regain these senses by about 18 months, while 80-90 percent regain these senses by two years."
+      ]
+    },
+    {
+      "tag": "covid-19-q25",
+      "patterns": [
+        "How long are you infectious with COVID-19?"
+      ],
+      "responses": [
+        "You can pass on the infection to others, even if you have no symptoms. \nMany people with COVID-19 will no longer be infectious to others after 5 days. If you have a positive COVID-19 test result, try to stay at home and avoid contact with other people for 5 days after the day you took your test."
+      ]
+    },
+    {
+      "tag": "covid-19-q26",
+      "patterns": [
+        "How long does it take to get Covid after exposure?\n",
+        "How soon after exposure does Covid develop?",
+        "How soon after exposure may someone get COVID?"
+      ],
+      "responses": [
+        "If you have symptoms, test immediately. If you were exposed to COVID-19 and do not have symptoms, wait at least 5 full days after your exposure before testing. \nIf you test too early, you may be more likely to get an inaccurate result."
+      ]
+    },
+    {
+      "tag": "covid-19-q27",
+      "patterns": [
+        "Can I have Covid and test negative?",
+        "I tested negative, but can I still take Covid?"
+      ],
+      "responses": [
+        "Sometimes an at-home COVID-19 antigen test can have a false-negative result. \nA negative at-home test is not a free pass if the person taking the test has symptoms."
+      ]
+    },
+    {
+      "tag": "covid-19-q28",
+      "patterns": [
+        "How long are you contagious when you have COVID-19?",
+        "When you have COVID-19, how long are you infectious?"
+      ],
+      "responses": [
+        "If you recently tested positive for COVID-19, you might be wondering how long you’re able to get others sick. You are most infectious (or contagious) in the first 5 days after your symptoms start. You can also spread COVID-19 in the 48 hours before your symptoms start. \nIf you never have symptoms, consider yourself most infectious in the 5 days after you test positive."
+      ]
+    },
+    {
+      "tag": "covid-recommendations",
+      "patterns": [
+        "What is the best advice to prevent the spread of Covid-19?",
+        "What are the five ways to prevent the spread of Covid-19?",
+        "What are the four ways that you can reduce the risk of Covid-19?",
+        "How can I protect myself?"
+      ],
+      "responses": [
+        "There are some additional prevention actions that may be done at any level, but CDC especially recommends considering in certain circumstances or at medium or high COVID-19 Community Levels. \nWearing Masks or Respirators and Increasing Space and Distance\n Masks are made to contain droplets and particles that you breathe, cough, or sneeze out. A variety of masks are available. Some masks provide a higher level of protection than others. \nIncreasing Space and Distance\n Small particles that people breathe out can contain virus particles. The closer you are to a greater number of people, the more likely you are to be exposed to the virus that causes COVID-19. To avoid this possible exposure, you may want to avoid crowded areas, or keep distance between yourself and others. These actions also protect people who are at high risk for getting very sick from COVID-19 in settings where there are multiple risks for exposure.",
+        "Bringing in as much outdoor air as possible—for example, opening windows.\nIncreasing air filtration in your heating, ventilation, and air conditioning (HVAC) system, such as by changing filters frequently and using filters that are properly fitted and provide higher filtration.\nUsing portable high-efficiency particulate air (HEPA) cleaners.\nTurning on exhaust fans and using other fans to improve air flow.\nTurning your thermostat to the \"ON” position instead of \"AUTO” to ensure your HVAC system provides continuous airflow and filtration.",
+        "Protect yourself and those around you:\n\nGet vaccinated as soon as it\"s your turn and follow local guidance on vaccination.\nKeep physical distance of at least 1 metre from others, even if they don\"t appear to be sick. Avoid crowds and close contact.\nWear a properly fitted mask when physical distancing is not possible and in poorly ventilated settings.\nClean your hands frequently with alcohol-based hand rub or soap and water.\nCover your mouth and nose with a bent elbow or tissue when you cough or sneeze. Dispose of used tissues immediately and clean hands regularly. \nIf you develop symptoms or test positive for COVID-19, self-isolate until you recover.\n",
+        "Wear a mask properly\nTo properly wear your mask:\n\nMake sure your mask covers your nose, mouth and chin.\nClean your hands before you put your mask on, before and after you take it off, and after you touch it at any time.\nWhen you take off your mask, store it in a clean plastic bag, and every day either wash it if it\"s a fabric mask or dispose of it in a trash bin if it\"s a medical mask.\nDon\"t use masks with valves.",
+        "Make your environment safer\nThe risks of getting COVID-19 are higher in crowded and inadequately ventilated spaces where infected people spend long periods of time together in close proximity.\n\nOutbreaks have been reported in places where people have gather, often in crowded indoor settings and where they talk loudly, shout, breathe heavily or sing such as restaurants, choir practices, fitness classes, nightclubs, offices and places of worship.\n\nTo make your environment as safe as possible:\n\nAvoid the 3Cs: spaces that are closed, crowded or involve close contact.\nMeet people outside. Outdoor gatherings are safer than indoor ones, particularly if indoor spaces are small and without outdoor air coming in.\nIf you can\"t avoid crowded or indoor settings, take these precautions:\nOpen a window to increase the amount of natural ventilation when indoors.\nWear a mask (see above for more details).",
+        "Keep good hygiene\nBy following good respiratory hygiene you protect the people around you from viruses that cause colds, flu and COVID-19. \n\nTo ensure good hygiene you should:\n\nRegularly and thoroughly clean your hands with either an alcohol-based hand rub or soap and water. This eliminates germs that may be on your hands, including viruses.\nCover your mouth and nose with your bent elbow or a tissue when you cough or sneeze. Dispose of the used tissue immediately into a closed bin and wash your hands.\nClean and disinfect surfaces frequently, especially those which are regularly touched, such as door handles, faucets and phone screens.",
+        "What to do if you feel unwell\nIf you feel unwell, here\"s what to do. \n\nIf you have a fever, cough and difficulty breathing, seek medical attention immediately. Call by telephone first and follow the directions of your local health authority.\nKnow the full range of symptoms of COVID-19. The most common symptoms of COVID-19 are fever, dry cough, tiredness and loss of taste or smell. Less common symptoms include aches and pains, headache, sore throat, red or irritated eyes, diarrhoea,  a skin rash or discolouration of fingers or toes.\nStay home and self-isolate for 10 days from symptom onset, plus three days after symptoms cease. Call your health care provider or hotline for advice. Have someone bring you supplies. If you need to leave your house or have someone near you, wear a properly fitted mask to avoid infecting others.\nKeep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities. Local and national authorities and public health units are best placed to advise on what people in your area should be doing to protect themselves."
       ]
     }
   ]
