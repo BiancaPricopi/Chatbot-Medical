@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Phill"
 
 
 def get_response(msg):
@@ -35,7 +35,7 @@ def get_response(msg):
     X = torch.from_numpy(X).to(device)
 
     output = model(X)
-    _, predicted = torch.max(output, dim=1)
+    _, predicted = torch.max(output, dim=1) #tag index
 
     tag = tags[predicted.item()]
 
@@ -46,7 +46,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "I do not understand..."
+    return "Thinking about response, please come later..."
 
 
 

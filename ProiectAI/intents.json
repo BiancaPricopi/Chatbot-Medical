@@ -11,73 +11,235 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey, ",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Good evening, how can we assist you today?",
+        "Welcome to our clinic, my name is dr. Phill, how may I help you?",
+        "Thank you for coming in, what brings you in today?",
+        "Nice to meet you, how can I help you today?",
+        "Hello, my name is dr. Phill, and I'll be assisting you today. How are you feeling?",
+        "Good to see you again, how have you been since our last visit?",
+        "It's nice to have you here, what can we do for you today?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Let me know if you have any other questions.",
+        "Goodbye for now, talk to you later.",
+        "Take care, have a great day.",
+        "Farewell, see you soon.",
+        "Ciao, arrivederci.",
+        "Peace out, catch you later.",
+        "So long, until next time.",
+        "Later, have a good one.",
+        "Adios, hasta luego.",
+        "Thank you for coming in, have a good day.",
+        "I'm here to assist you, please let us know if you need anything. Adios."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "We appreciate your visit, take care."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "cold_symptoms",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What are the first signs of a cold?",
+        "What are the symptoms of a cold?",
+        "How do I know if I caught a cold?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "The symptoms of a cold are: sneezing, stuffy nose, runny nose, sore throat, coughing, watery eyes, fever, mucus dripping down your throat.\n ",
+        "First symptoms of cold are: sneezing, stuffy nose, runny nose, sore throat, coughing, watery eyes, fever, mucus dripping down your throat. \n",
+        "Not all patients have fever, but other symptoms are :sneezing, stuffy nose, runny nose, sore throat, coughing, watery eyes, mucus dripping down your throat. \n"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "cold_prevention",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How can I prevent getting a cold?",
+        "What are some ways to avoid catching a cold?",
+        "What are some tips for avoiding a cold?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "There are several ways to prevent getting a cold, such as washing your hands frequently, avoiding close contact with people who are sick, and avoiding touching your face, especially your nose and mouth.",
+        "It's also important to get enough sleep, eat a balanced diet, and exercise regularly to boost your immune system. Additionally, you can avoid smoking and secondhand smoke, and reduce stress in your life.",
+        "Another way to prevent a cold is to get a flu shot, as the flu and cold have similar symptoms and can be confused, the flu shot can help protect against the flu and cold. "
       ]
     },
     {
-      "tag": "funny",
+      "tag": "cold_treatment",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What are some ways to treat a cold?",
+        "What should I do if I have a cold?",
+        "What are some home remedies for a cold?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "The common cold is caused by a virus, so antibiotics will not help. Treatment for a cold includes getting plenty of rest, drinking fluids, and relieving symptoms with over-the-counter medication such as acetaminophen or ibuprofen for fever and pain, decongestants for stuffy nose, and cough syrup for coughing.",
+        "You can also use a humidifier or take a hot shower to help relieve a stuffy nose, and use saline nasal drops or spray to help relieve congestion.",
+        "Some home remedies include drinking warm liquids, such as tea or chicken soup, to help soothe a sore throat, and using a humidifier to add moisture to the air, which can help relieve congestion."
+      ]
+    },
+    {
+      "tag": "cold_duration",
+      "patterns": [
+        "How long does a cold usually last?",
+        "When can I expect to feel better from a cold?",
+        "How long does it take for a cold to go away?"
+      ],
+      "responses": [
+        "A cold typically lasts for about 7 to 10 days, but can last up to 2 weeks.",
+        "Symptoms usually peak in the first 3 to 4 days, and then gradually improve. However, some people may continue to have a cough or congestion for a few weeks after the other symptoms have resolved.",
+        "It's important to remember that everyone's body and immune system is different, so the duration of a cold can vary from person to person."
+      ]
+    },
+    {
+      "tag": "cold_complications",
+      "patterns": [
+        "Are there any complications that can occur from a cold?",
+        "What are the potential risks of a cold?",
+        "What should I be concerned about if I have a cold?"
+      ],
+      "responses": [
+        "While a cold is generally a mild illness, in some cases, it can lead to more serious complications such as sinus infections, ear infections, and pneumonia.",
+        "It's also important to be aware of the risk of dehydration from not drinking enough fluids and fever, so it's important to stay hydrated and monitor your fever.",
+        "If you have a pre-existing medical condition, such as asthma or heart disease, or if your symptoms are severe or don't improve after a week, it's important to see a doctor."
+      ]
+    },
+    {
+      "tag": "cold_vs_flu",
+      "patterns": [
+        "What is the difference between a cold and the flu?",
+        "How do I know if I have a cold or the flu?",
+        "What are the similarities and differences between a cold and the flu?"
+      ],
+      "responses": [
+        "A cold and the flu are both respiratory illnesses, but they are caused by different viruses. The flu is caused by the influenza virus, while the common cold is caused by several different types of viruses.",
+        "Symptoms of the flu are usually more severe than a cold and can include fever, chills, body aches, and fatigue. Cold symptoms are usually milder and include sneezing, runny nose, and sore throat.",
+        "Both colds and the flu can lead to more serious complications, and it's important to see a doctor if you have severe symptoms or if your symptoms don't improve after a week."
+      ]
+    },
+    {
+      "tag": "covid_symptoms",
+      "patterns": [
+        "What are the symptoms of coronavirus?",
+        "How do I know if I have COVID-19?",
+        "What are the signs of COVID-19?"
+      ],
+      "responses": [
+        "The common symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, body aches, headache, loss of smell or taste, sore throat, and congestion or runny nose.",
+        "Symptoms of COVID-19 can range from mild to severe and may appear 2-14 days after exposure. Common symptoms include fever, cough, and difficulty breathing.",
+        "Some people with COVID-19 may have only mild symptoms or no symptoms at all, but others may experience more severe symptoms such as fever, cough, and difficulty breathing."
+      ]
+    },
+    {
+      "tag": "covid_transmission",
+      "patterns": [
+        "How does coronavirus spread?",
+        "What are the ways to get infected with COVID-19?",
+        "How can I avoid getting infected with COVID-19?"
+      ],
+      "responses": [
+        "COVID-19 primarily spreads through respiratory droplets when an infected person talks, coughs, or sneezes. Close contact with an infected person, or touching a surface or object with the virus on it and then touching your face can also lead to infection.",
+        "It is important to practice good hygiene such as washing your hands frequently, wearing a mask in public, practicing social distancing, and avoiding close contact with sick people to reduce your risk of getting infected with COVID-19.",
+        "You can also reduce the risk of getting infected by avoiding crowded places, practicing good respiratory etiquette such as covering your mouth and nose when you cough or sneeze, and cleaning and disinfecting frequently touched surfaces and objects."
+      ]
+    },
+    {
+      "tag": "covid_prevention",
+      "patterns": [
+        "How can I protect myself from COVID-19?",
+        "What are the best ways to prevent COVID-19?",
+        "What should I do to avoid getting coronavirus?"
+      ],
+      "responses": [
+        "To protect yourself from COVID-19, it is important to practice good hygiene such as washing your hands frequently with soap and water for at least 20 seconds, wearing a mask in public, practicing social distancing by staying at least 6 feet away from others, and avoiding close contact with sick people.",
+        "Getting vaccinated is also an effective way to protect yourself and others from COVID-19. Vaccines have been shown to be safe and effective in preventing severe illness, hospitalization, and death.",
+        "It's also important to limit your exposure to crowded public places and avoid non-essential travel. In addition, if you are feeling unwell or have been in close contact with someone who has COVID-19, you should self-quarantine and get tested."
+      ]
+    },
+    {
+      "tag": "covid_treatment",
+      "patterns": [
+        "How is COVID-19 treated?",
+        "What are the treatment options for COVID-19?",
+        "Is there a cure for coronavirus?"
+      ],
+      "responses": [
+        "Currently, there is no specific treatment for COVID-19. Treatment is primarily supportive and aims to alleviate symptoms. This may include rest, fluids, over-the-counter pain relievers, and fever reducers.",
+        "Oxygen therapy may also be used for patients with severe symptoms. In some cases, antiviral drugs may be used to reduce the severity of symptoms and shorten the duration of illness.",
+        "It's important to note that vaccines have been developed and authorized for emergency use against COVID-19, and are highly effective in preventing severe illness, hospitalization and death caused by the virus. and are considered as a treatment for preventing the virus."
+      ]
+    },
+    {
+      "tag": "covid_testing",
+      "patterns": [
+        "Where can I get tested for COVID-19?",
+        "How do I get tested for COVID-19?",
+        "What is the process for getting tested for coronavirus?"
+      ],
+      "responses": [
+        "You can get tested for COVID-19 at testing sites, clinics, and hospitals. Some sites may require you to make an appointment in advance, while others may offer walk-up testing. Contact your state or local health department for information on testing sites in your area.",
+        "You can also check for testing locations on the website of your local health department, or you can check the website of the Centers for Disease Control and Prevention (CDC) which provides the updated information about testing locations.",
+        "The process for getting tested may vary depending on the location, but it typically involves providing a sample, such as a swab of your nose or throat, or a saliva sample. Results are typically available within a few days."
+      ]
+    },
+    {
+      "tag": "covid_vaccine",
+      "patterns": [
+        "Where can I get the coronavirus vaccine?",
+        "How do I get the COVID-19 vaccine?",
+        "What are the available COVID-19 vaccines?"
+      ],
+      "responses": [
+        "The COVID-19 vaccine is currently available at vaccination sites, clinics,and hospitals. You can check for vaccination sites near you by visiting the website of your state or local health department or the website of the Centers for Disease Control and Prevention (CDC) which provides up-to-date information on vaccination locations and availability.",
+        "You can also check with your healthcare provider or pharmacy to see if they are offering the vaccine.",
+        "Currently, the authorized vaccines are Pfizer-BioNTech, Moderna, Johnson & Johnson, AstraZeneca, and Sinovac. Each vaccine has been authorized for emergency use and have been shown to be safe and effective in preventing severe illness, hospitalization, and death caused by COVID-19."
+      ]
+    },
+    {
+      "tag": "covid_symptoms",
+      "patterns": [
+        "What are the symptoms of coronavirus?",
+        "How do I know if I have COVID-19?",
+        "What are the common signs of COVID-19?"
+      ],
+      "responses": [
+        "The symptoms of COVID-19 can vary, but common signs include fever, cough, shortness of breath or difficulty breathing, fatigue, body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea.",
+        "It's important to note that some people may be asymptomatic or have mild symptoms, while others may develop severe illness. If you are experiencing any of these symptoms, it's important to get tested and self-quarantine to prevent the spread of the virus.",
+        "If you have any of these symptoms, it's important to get tested as soon as possible, and self-quarantine until you receive your test results."
+      ]
+    },
+    {
+      "tag": "covid_travel",
+      "patterns": [
+        "Can I travel during the coronavirus pandemic?",
+        "Is it safe to travel during the COVID-19 pandemic?",
+        "What are the guidelines for traveling during the COVID-19 pandemic?"
+      ],
+      "responses": [
+        "The CDC and other health authorities recommend avoiding non-essential travel during the COVID-19 pandemic. This is because travel increases the risk of getting and spreading COVID-19. If you must travel, it's important to take precautions such as wearing a mask, practicing social distancing, and getting tested before and after travel.",
+        "If you are traveling internationally, it's important to check the travel guidelines of the destination country and the airline you are flying with. Some countries and airlines may have strict entry requirements, including negative COVID-19 test results and quarantine periods.",
+        "It's also important to note that some countries may have travel restrictions and quarantine requirements upon return, so it's important to check with your state or local health department for the most up-to-date information."
       ]
     }
   ]
